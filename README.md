@@ -1,10 +1,13 @@
 # VaultX 🔐
 > **Your passwords. Secured locally.**
 
+[![Release](https://img.shields.io/github/v/release/hasnaintanoli/vaultx-password-manager?color=2563eb&label=Latest%20Release)](https://github.com/hasnaintanoli/vaultx-password-manager/releases/latest)
 [![Python](https://img.shields.io/badge/Python-3.13%2B-blue.svg?logo=python&logoColor=white)](https://python.org)
 [![GUI](https://img.shields.io/badge/GUI-CustomTkinter-blueviolet.svg)](https://github.com/TomSchimansky/CustomTkinter)
 [![Security](https://img.shields.io/badge/Encryption-Argon2id%20%2B%20AES--128--CBC-success.svg)](https://cryptography.io)
-[![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+[![Platform](https://img.shields.io/badge/Platform-Windows-0078D6?logo=windows&logoColor=white)](https://github.com/hasnaintanoli/vaultx-password-manager/releases/latest)
+
+[**📥 Download VaultX for Windows (v1.0.0 Setup Installer)**](https://github.com/hasnaintanoli/vaultx-password-manager/releases/download/v1.0.0/VaultX_Setup_v1.0.0.exe)
 
 VaultX is a modern, production-quality, privacy-first local password manager desktop application built with Python 3.13+, CustomTkinter, and SQLite. VaultX operates 100% offline with zero network calls, zero external server dependencies, and zero plaintext credential storage.
 
