@@ -1,0 +1,92 @@
+# ==========================================
+# VaultX - .gitignore Configuration
+# Protects sensitive data, databases, secrets,
+# virtual environments, and local IDE files.
+# ==========================================
+
+# 1. Sensitive Vault Data & Local Databases (NEVER COMMIT)
+*.db
+*.sqlite
+*.sqlite3
+*.db-journal
+*.sqlite3-journal
+data/*.db
+data/*.sqlite
+data/*.sqlite3
+
+# 2. Vault Backups & Export Files
+exports/*
+!exports/.gitkeep
+*.vaultx
+
+# 3. Environment Variables & Secrets
+.env
+.env.*
+*.env
+*.pem
+*.key
+*.cert
+
+# 4. Logs & Diagnostics
+logs/*
+!logs/.gitkeep
+*.log
+*.log.*
+
+# 5. Python Bytecode & Runtime Caches
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# 6. Virtual Environments
+.venv/
+venv/
+ENV/
+env/
+env.bak/
+venv.bak/
+
+# 7. Testing, Coverage & Type Checker Caches
+tests/
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.mypy_cache/
+.ruff_cache/
+.hypothesis/
+
+# 8. Packaging & Build Distribution Files
+build/
+dist/
+Output/
+installer/Output/
+*.iss.bak
+*.egg-info/
+.eggs/
+*.spec
+
+# 9. IDEs & Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+*.sublime-workspace
+*.sublime-project
+
+# 10. Operating System Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+[Dd]esktop.ini
+*.tmp
+*.bak
+
+# 11. Helper Generation Scripts
+assets/generate_icon.py
